@@ -1,0 +1,570 @@
+@charset "utf-8";
+
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #dacc6f url(images/bg01.jpg) repeat-x left top;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+
+h1, h2, h3 {
+	margin-top: 0px;
+}
+
+h1 {
+}
+
+h2, h3 {
+	font-weight: normal;
+}
+
+h2 {
+	margin: 0px;
+	font-size: 24px;
+	color: #FFFFFF;
+}
+
+h3 {
+	margin-bottom: 18px;
+	font-size: 11px;
+}
+
+h4 {
+	margin-bottom: 10px;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+
+p, ol, ul {
+	margin-top: 0px;
+	margin-bottom: 18px;
+	text-align: left;
+	line-height: 170%;
+}
+
+ul {
+	margin-left: 0px;
+	padding-left: 0px;
+	list-style: none;
+}
+
+ul li {
+}
+
+.list1 {
+	line-height: normal;
+}
+
+.list1 li {
+	float: left;
+	padding: 0px 0px 10px 0px;
+}
+
+.list1 li.wide {
+}
+
+.list1 li.alt {
+	padding-left: 10px;
+}
+
+strong {
+	color: #FFFFFF;
+}
+
+a {
+	color: #FFFFFF;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+a.link1 {
+	padding-left: 13px;
+	background: url(images/homepage14.gif) no-repeat left center;
+	color: #FFFFFF !important;
+}
+
+img.alignleft {
+	float: left;
+	margin: 5px 15px 0px 0px;
+}
+
+img.alignright {
+	float: right;
+}
+
+img.aligncenter {
+	margin: 0px auto;
+}
+
+hr {
+	display: none;
+}
+
+/** WRAPPER */
+
+#wrapper {
+}
+
+/** HEADER */
+
+#header {
+	width: 855px;
+	margin: 0px auto;
+	height: 140px;
+	padding: 20px 0px 0px 0px;
+	background-color: transparent;
+}
+
+/** MENU */
+
+#menu {
+	width: 607px;
+	height: 140px;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a {
+	float: left;
+	height: 50px;
+	padding: 90px 0px 0px 0px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 12px;
+	color: #000000;
+}
+
+#menu a:hover {
+	text-decoration: underline;
+}
+/* Each menu item has 3 modes: normal, a, and hover */
+a#menu1 {
+	width: 90px;
+	padding-right: 3px;
+	background: url(images/homepage02.jpg) no-repeat left top;
+}a#menu1a, a#menu1:hover {
+	width: 90px;
+	padding-right: 3px;
+	background: url(images/ahomepage02.jpg) no-repeat left top;
+}
+
+a#menu2 {
+	width: 100px;
+	padding-left: 1px;
+	background: url(images/homepage03.jpg) no-repeat left top;
+}a#menu2a, a#menu2:hover {
+	width: 100px;
+	padding-left: 1px;
+	background: url(images/ahomepage03.jpg) no-repeat left top;
+}
+
+a#menu3 {
+	width: 99px;
+	background: url(images/homepage04.jpg) no-repeat left top;
+}a#menu3a, a#menu3:hover {
+	width: 99px;
+	background: url(images/ahomepage04.jpg) no-repeat left top;
+}
+
+a#menu4 {
+	width: 94px;
+	padding-left: 5px;
+	background: url(images/homepage05.jpg) no-repeat left top;
+}a#menu4a, a#menu4:hover {
+	width: 94px;
+	padding-left: 5px;
+	background: url(images/ahomepage05.jpg) no-repeat left top;
+}
+
+a#menu5 {
+	width: 101px;
+	background: url(images/homepage06.jpg) no-repeat left top;
+}a#menu5a, a#menu5:hover {
+	width: 101px;
+	background: url(images/ahomepage06.jpg) no-repeat left top;
+}
+
+a#menu6 {
+	width: 102px;
+	padding-right: 12px;
+	background: url(images/homepage07.jpg) no-repeat left top;
+}a#menu6a, a#menu6:hover{
+	width: 102px;
+	padding-right: 12px;
+	background: url(images/ahomepage07.jpg) no-repeat left top;
+}
+
+/** PAGE */
+
+#page {
+	width: 855px;
+	margin: 0px auto;
+}
+
+.bgtop {
+}
+
+.bgbtm {
+	padding: 25px 0px 1px 0px;
+}
+
+/** 4-COLUMN LAYOUT */
+
+.four-columns {
+	background: url(images/bg03.jpg) repeat-y left top;
+}
+
+.four-columns .bgtop {
+	background: url(images/bg04.jpg) no-repeat left top;
+}
+
+.four-columns .bgbtm {
+	background: url(images/bg05.jpg) no-repeat left bottom;
+}
+
+.four-columns .column1 {
+	padding: 0px 0px 0px 54px;
+}
+
+.four-columns .column2 {
+	padding: 0px 0px 0px 36px;
+}
+
+.four-columns .column3 {
+	padding: 0px 0px 0px 35px;
+}
+
+.four-columns .column3 h3
+{
+	margin: 0;
+}
+
+.four-columns .column4 {
+	padding: 0px 0px 0px 36px;
+}
+
+/** 2-COLUMN LAYOUT */
+
+.two-columns {
+	background: url(images/bg1_01.jpg) repeat-y left top;
+}
+
+.two-columns .bgtop {
+	background: url(images/bg1_02.jpg) no-repeat left top;
+}
+
+.two-columns .bgbtm {
+	background: url(images/bg1_03.jpg) no-repeat left bottom;
+}
+
+.two-columns .column1 {
+	width: 160px;
+	padding: 0px 0px 0px 54px;
+}
+
+.two-columns .column2 {
+	width: 550px;
+	padding: 0px 0px 0px 36px;
+	color: #000000;
+}
+
+.two-columns .column2 h2 {
+	border-bottom: 1px solid white;
+}
+
+/** SINGLE COLUMN */
+
+.single {
+	background: url(images/bg2_01.jpg) repeat-y left top;
+}
+
+.single .bgtop {
+	background: url(images/bg2_02.jpg) no-repeat left top;
+}
+
+.single .bgbtm {
+	padding: 25px 55px;
+	background: url(images/bg2_03.jpg) no-repeat left bottom;
+	overflow: hidden;
+}
+
+/** CONTENT */
+
+#content {
+}
+
+/** BOX COMMON STYLES */
+
+.style1 {
+	color: #8FA0A7;
+}
+
+.style1 h3 {
+	color: #838585;
+}
+
+.style2 {
+}
+
+.style2 h3 {
+	color: #9EB1C8;
+}
+
+.style2 ul {
+	line-height: normal;
+}
+
+.style2 ul li {
+	padding: 10px 0px;
+	background: url(images/homepage17.gif) no-repeat left top;
+}
+
+.style2 ul .first {
+	padding-top: 0px;
+	background: none;
+}
+
+.style2 a {
+	color: #CDE4EF;
+}
+
+.style2 .link1 {
+	background-image: url(images/homepage15.gif);
+}
+
+.style3 {
+}
+
+.style3 a {
+	color: #99FF99;
+}
+
+.style3 h3 {
+	color: #C0D4DD;
+}
+
+.style3 h4 {
+	border-bottom: 1px solid #AA1111;
+}
+
+.style3 .link1 {
+	background-image: url(images/homepage16.gif);
+}
+
+.style4 {
+}
+
+.style4 h3 {
+	color: white;
+}
+
+/** SIDEBAR */
+
+#sidebar {
+}
+
+/** SIDEBAR > BOX STYLE */
+
+#sidebar .box {
+}
+
+/** FOOTER */
+
+#footer {
+	width: 855px;
+	height: 100px;
+	margin: 0px auto;
+	background: url(images/bg06.jpg) no-repeat left top;
+	text-align: center;
+}
+
+#footer p {
+	margin: 0px;
+	padding: 60px 0px 0px 0px;
+	line-height: normal;
+	text-align: center;
+	color: #666666;
+}
+div#preload { display: none; } /************/
+
+element.style
+{
+	color: blue;
+}
+
+.vs-duration
+{
+	color: blue;
+}
+
+/* Sponsor Page */
+#sponsors
+{
+	text-align: center;
+}
+
+#sponsors h1
+{
+	padding: 5px;
+	background-color: grey;
+	color: #000000;
+}
+
+/* Contact Form */
+.feedbackform{
+padding: 5px;
+}
+
+div.fieldwrapper{ /*field row DIV (includes two columns- Styled label column and 'thefield' column)*/
+width: 550px; /*width of form rows*/
+overflow: hidden;
+padding: 5px 0;
+}
+
+div.fieldwrapper label.styled{ /* label elements that should be styled (left column within fieldwrapper DIV) */
+float: left;
+width: 150px; /*width of label (left column)*/
+border-bottom: 1px solid red;
+margin-right: 15px; /*spacing with right column*/
+font-size: 15px;
+color: white;
+}
+
+div.fieldwrapper div.thefield{ /* DIV that wraps around the actual form fields (right column within fieldwrapper DIV) */
+float: left;
+margin-bottom: 10px; /* space following the field */
+}
+
+div.thefield li
+{
+	font-size: 15px;
+}
+
+div.fieldwrapper div.thefield input[type="text"]{ /* style for INPUT type="text" fields. Has no effect in IE7 or below! */
+width: 250px;
+}
+
+div.fieldwrapper div.thefield textarea{ /* style for TEXTAREA fields. */
+width: 300px;
+height: 150px;
+}
+
+div.buttonsdiv{ /*div that wraps around the submit/reset buttons*/
+margin-top: 5px; /*space above buttonsdiv*/
+}
+
+div.buttonsdiv input{ /* style for INPUT fields within 'buttonsdiv'. Assumed to be form buttons. */
+width: 80px;
+background: #e1dfe0;
+}
+
+div.error p
+{
+	color: red;
+	font-style: italic;
+	font-size: 12pt;
+	margin-bottom: 0;
+}
+
+div.error ul
+{
+	margin-left: 30px;
+	list-style-type: disc;
+	font-size: 10pt;
+	font-style: none;
+	color: red;
+}	
+
+/* Membership Page */
+#officers p
+{
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 12pt;
+	line-height: 100%;
+}
+
+#officers p strong
+{
+	font-size: 10pt;
+	text-decoration: underline;
+}
+
+#officers h2 
+{
+	font-size: 16pt;
+	background-color: grey;
+	text-align: center;
+	padding: 2px 0;
+	margin-bottom: 5px;
+}
+
+#officers td
+{
+	padding: 0 10px;
+}
+
+/* Pictures */
+#pic_area
+{
+	float: left;
+	margin-left: 10px;
+}
+
+#pic_area table a
+{
+	color: darkblue;
+}
+
+#multi
+{
+	float: left;
+	margin-right: 10px;
+}
+
+/* Global Fromatting */
+.event_header
+{
+	margin: 0;
+	font-size: x-large;
+	line-height: 100%;
+	padding: 2px 0;
+}
+
+.tagline
+{
+	color: black;
+	font-style: italic;
+	padding-left: 35px;
+	padding-top: 75px;
+	font-weight: bold;
+}
+
+.tagline_link
+{
+	color: black;
+	font-style: italic;
+	padding-left: 35px;
+	padding-top: 90px;
+	font-weight: bold;
+}

@@ -1,0 +1,817 @@
+@charset "utf-8";
+
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #F2F2F2;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	border-left: 40px solid #303030;
+	border-right: 40px solid #303030;
+}
+
+#wrapper {
+	height: auto !important;
+	min-width: 855px;
+	margin: 0 auto;
+	width: 100%;
+	min-height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: transparent;
+	
+}
+
+/*  User, Time, Date */
+#userInfo
+{
+	width: 100%;
+	height: auto;
+	float: left;
+	background-color: #303030;
+	padding: 2px 0;
+	font-weight: bold;
+	font-family: Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+#userName
+{
+	float: left;
+	padding-left: 5px;
+}
+
+#userName a
+{
+	color: white;
+}
+
+#userName a:hover
+{
+	color: lightgrey;
+}
+
+#dateTime
+{
+	float: right;
+	padding-right: 5px;
+}
+
+/* Header */
+#header {
+	width: 100%;
+	height: 120px;
+	margin: 0 auto;
+	background: url(../_images/member_banner.jpg) no-repeat scroll 0 0 #E4E4E4;
+	float: left;
+}
+
+/* Navigation */
+#navigation
+{
+	background-color: #303030;
+	float: left;
+	width: 100%; /* width of wrapper minus the border sides 853*/
+	font-size: 11px;
+	padding-top: 5px;
+}
+
+#navigation ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 5px 37px;
+	float: left;
+}
+
+#navigation ul li
+{
+	display: inline;
+	float: left;
+	padding-left: 5px;
+}
+
+#navigation ul li a
+{
+	text-decoration: none;
+	padding: 5px 9px;
+	border-bottom: none;
+	color: lightgrey;
+	background-color: #4D4D4D;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: inherit;
+}
+
+#navigation ul li a:hover 
+{
+	background-color: #F2F2F2;
+	color: royalBlue;
+}
+
+#navigation ul li a.home
+{
+	background-color: orange;
+	color: royalBlue;
+}
+
+#navigation ul li a.home:hover
+{
+	background-color: #FF8800;
+}
+
+#navigation ul li a.logout
+{
+	background-color: orangeRed;
+	color: white;
+}
+
+#navigation ul li a.logout:hover
+{
+	background-color: red;
+}
+
+#navigation ul li a.selected
+{
+	background-color: #F2F2F2;
+	color: royalBlue;
+}
+
+/* Footer */
+#footer {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	float:left;
+	background-color: #303030;
+	position: absolute;
+	bottom: 0;
+}
+
+#footer p {
+	line-height: normal;
+	text-align: center;
+	color: #F2F2F2;
+	margin: 0 0 2px 0;
+	font-size: xx-small;
+}
+
+/* Page */
+#page {
+	width: 100%;
+	margin: 0px auto 35px auto;
+	float: left;
+}
+
+.single {
+}
+
+.single .bgtop {
+	background-color: #303030;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.single .bgbtm {
+	padding: 20px;
+	background-color: #F2F2F2;
+	overflow: hidden;
+}
+
+/* Main Page */
+#splash_box1
+{
+	float: left;
+	background-color: #3A5E8E;
+	border: 2px solid #99CCFF;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	min-width: 340px;
+	height: 300px;
+	overflow: hidden;
+	width: 46%;
+}
+
+#box1_main_cont
+{
+	background-color: #4B78A1;
+	border-top: 2px solid #99CCFF;
+	-moz-border-radius: 0 0 10px 10px;
+	border-radius: 0 0 10px 10px;
+	width: 100%;
+	height: 285px;
+	font-size: 11px;
+}
+
+#box1_main_cont form
+{
+	margin: 0;
+	width: 100%;
+}
+
+#box1_main_cont form label
+{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#box1_main_cont .field
+{
+	margin: 0 10px 10px 10px;
+}
+
+#box1_main_cont .field textarea
+{
+	width: 99%;
+	height: 135px;
+	font-family: inherit;
+	font-size: small;
+	resize: none;
+	margin: 0;
+	padding: 1px 0 1px 1px;
+}
+
+#box1_main_cont .button
+{
+	float: right;
+	margin-right: 10px;
+}
+
+#box1_main_cont .button input
+{
+	margin: 0;
+}
+
+.box_title
+{
+	color: white;
+	text-decoration: none;
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.box_title:hover
+{
+	text-decoration: underline;
+}
+
+#splash_box2
+{
+	float: right;
+	background-color: #61905A;
+	border: 2px solid #66FF99;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	min-width: 382px;
+	height: 300px;
+	overflow: hidden;
+	width: 50%;
+}
+
+#box2_main_cont
+{
+	background-color: #6EB37D;
+	border-top: 2px solid #66FF99;
+	-moz-border-radius: 0 0 10px 10px;
+	border-radius: 0 0 10px 10px;
+	width: 100%;
+	height: 285px;
+}
+
+#splash_box3
+{
+	float: left;
+	background-color: #9D85B5;
+	border: 2px solid #CC66FF;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	min-width: 742px;
+	height: 200px;
+	overflow: hidden;
+	margin-top: 15px;
+	width: 100%;
+}
+
+#box3_main_cont
+{
+	background-color: #BDACCE;
+	border-top: 2px solid #CC66FF;
+	-moz-border-radius: 0 0 10px 10px;
+	border-radius: 0 0 10px 10px;
+	width: 100%;
+	height: 184px;
+	overflow: auto;
+	font-size: 10pt;
+}
+
+#box3_main_cont p
+{
+	margin-top: 0px;
+}
+
+#box3_main_cont a
+{
+	margin-left: 20px;
+	padding-bottom: 5px;
+	color: purple;
+}
+
+#box3_main_cont a:hover
+{
+	color: magenta;
+}
+
+/* Calendar Style */
+#calendar
+{
+	float: left;
+	background-color: #61905A;
+	border: 2px solid #66FF99;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	width: 100%;
+	height: 650px;
+	overflow: hidden;
+}
+
+#calendar_cont
+{
+	background-color: #6EB37D;
+	border-top: 2px solid #66FF99;
+	-moz-border-radius: 0 0 10px 10px;
+	border-radius: 0 0 10px 10px;
+	width: 100%;
+	height: 610px;
+}
+
+/* Events Sign-Ups */
+#signup
+{
+	float: left;
+	background-color: #FF8C00;
+	border: 2px solid #A65B00;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	width: 100%;
+	overflow: hidden;
+	height: auto;
+	font-size: 11px;
+}
+
+#signup_cont
+{
+	background-color: #FFA940;
+	border-top: 2px solid #A65B00;
+	-moz-border-radius: 0 0 10px 10px;
+	border-radius: 0 0 10px 10px;
+	width: 100%;
+	max-height: 510px;
+	height: auto;
+	overflow: auto;
+	color: black;
+}
+
+#singup_cont textarea
+{
+	font-size: small;
+	font-family: inherit;
+}
+
+#signup_cont_list
+{
+	background-color: #FFA940;
+	border-top: 2px solid #A65B00;
+	border-bottom: 2px solid #A65B00;
+	width: 100%;
+	max-height: 510px;
+	height: auto;
+	overflow: auto;
+	color: black;
+}
+
+#signup_cont_list textarea
+{
+	font-size: small;
+	font-family: inherit;
+}
+
+#list_box
+{
+	margin: 10px 40px;
+	clear: left;
+	float: left;
+}
+
+#list_title a
+{
+	color: black;
+	font-size: large;
+	text-decoration: none;
+}
+
+#list_title a:hover
+{
+	text-decoration: underline;
+}
+
+#list_info
+{
+	float: left;
+	margin-left: 5px;
+	color: white;
+	width: 300px;
+}
+
+#list_button
+{
+	float: right;
+	margin: 0 100px;
+}
+
+#participant_table
+{
+	clear: left;
+	margin: 20px 30px;
+	padding-top: 20px;
+	font-size: 13px;
+	color: black;
+}
+
+#participant_table th
+{
+	text-decoration: underline;
+	text-align: left;
+}
+
+#participant_table td
+{
+	width: 140px;
+}
+
+/* News Style */
+#ann
+{
+	float: left;
+	background-color: #9D85B5;
+	border: 2px solid #CC66FF;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+#ann_cont
+{
+	background-color: #BDACCE;
+	border-top: 2px solid #CC66FF;
+	border-bottom: 2px solid #CC66FF;
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	max-height: 500px;
+	font-size: 10pt;
+}
+
+#ann_cont p
+{
+	margin-top: 0px;
+}
+
+#ann_cont a.more
+{
+	margin-left: 20px;
+	padding-bottom: 5px;
+	color: purple;
+}
+
+#ann_cont a.more:hover
+{
+	color: magenta;
+}	 
+
+#ann_block
+{
+	margin: 10px 5px 20px 30px;
+}
+
+#ann_title
+{
+	color: black;
+	font-size: large;
+}
+
+#ann_date_block
+{
+	float: left;
+	width: 35px; 
+	height: 35px;
+	background-image: url("../_images/list_points.gif");
+	margin-right: 5px;
+}
+
+#ann_body
+{
+	padding-top: 3px;
+	color: black;
+}
+
+.ann_date
+{
+	font-size: 10px;
+	color: #666666;
+	font-weight: normal;
+}
+
+#movefield
+{
+	margin: 10px 0 10px 10px;
+}
+
+/* Roster */
+#roster
+{
+	float: left;
+	background-color: #3A5E8E;
+	border: 2px solid #99CCFF;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+#roster_cont
+{
+	background-color: #4B78A1;
+	border-top: 2px solid #99CCFF;
+	-moz-border-radius: 0 0 10px 10px;
+	border-radius: 0 0 10px 10px;
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+#roster_search_terms
+{
+	float: right;
+	font-size: 12px;
+	margin-right: 10px;
+	margin-top: 2px;
+}
+
+#roster_search_terms a
+{
+	color: white;
+}
+
+#roster_search_terms a:hover
+{
+	text-decoration: none;
+}
+
+#roster_table
+{
+	float: left;
+	width: 100%;
+}
+
+#roster_table table
+{
+	width: 100%;
+}
+
+#roster_table table th
+{
+	text-align: left;
+}
+
+#roster_table table td
+{
+	text-align: left;
+	font-size: 14px;
+	vertical-align: top;
+}
+
+#roster_table table td a
+{
+	color: paleturquoise;
+}
+
+#roster_table table td.letter
+{
+	font-weight: bold;
+}
+
+/* Index */
+#login_box
+{
+	background-color: transparent;
+	background: url(../_images/loginbox2.png);
+	height: 319px;
+	width: 414px;
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+	top: 25%;
+	margin-top: -100px;
+}
+
+#login_title
+{
+	padding-top: 35px;
+	padding-left: 15px;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-large;
+	color: gold;
+}
+
+#login_form
+{
+	position: relative;
+	margin-top: 25px;
+}
+
+#error_box
+{
+	background-color: #FFCCCC;
+	border: 3px groove red;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	padding: 10px;
+	width: 300px;
+	color: black;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.login_label
+{
+	color: white;
+	padding-left: 25px;
+	font-size: 12px;
+}
+
+.login_field
+{
+	margin-left: 25px;
+	margin-bottom: 25px;
+}
+
+.login_field input
+{
+	width: 350px;
+	height: 30px;
+	font-family: font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 28px;
+}
+
+.login_button
+{
+	float: right;
+	margin-right: 40px;
+}
+
+.login_button input
+{
+	font-family: inherit;
+	font-size: large;
+	background-color: #FF8C00;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+/* Account Management */
+.feedbackform
+{
+	padding: 10px 0 0 30px;
+	float: left;
+}
+
+div.fieldwrapper
+{ /*field row DIV (includes two columns- Styled label column and 'thefield' column)*/
+	width: 550px; /*width of form rows*/
+	overflow: hidden;
+	padding: 5px 0;
+}
+
+div.fieldwrapper label.styled
+{ /* label elements that should be styled (left column within fieldwrapper DIV) */
+	float: left;
+	width: 150px; /*width of label (left column)*/
+	border-bottom: 1px solid red;
+	margin-right: 15px; /*spacing with right column*/
+	font-size: 15px;
+	color: black;
+}
+
+div.fieldwrapper div.thefield
+{ /* DIV that wraps around the actual form fields (right column within fieldwrapper DIV) */
+	float: left;
+	margin-bottom: 10px; /* space following the field */
+}
+
+div.fieldwrapper div.thefield input[type="text"]
+{ /* style for INPUT type="text" fields. Has no effect in IE7 or below! */
+	/*width: 200px;*/
+}
+
+div.fieldwrapper div.thefield textarea
+{ /* style for TEXTAREA fields. */
+	width: 300px;
+	height: 150px;
+}
+
+div.buttonsdiv
+{ /*div that wraps around the submit/reset buttons*/
+	margin-top: 5px; /*space above buttonsdiv*/
+}
+
+div.buttonsdiv input
+{ /* style for INPUT fields within 'buttonsdiv'. Assumed to be form buttons. */
+	width: 80px;
+	background: #e1dfe0;
+}
+
+#smallmenu
+{
+	float: left;
+	width: 160px;
+	margin-top: 10px;
+	background-color: lightgray;
+	font-size: 12px;
+}
+
+#smallmenu .optionsheader
+{
+	background-color: slategray;
+	border-bottom: 1px solid white;
+	padding: 1px 0 1px 2px;
+	width: 158px;
+	font-weight: bold;
+}
+
+#smallmenu ul
+{
+	color:black;
+	margin:0 10px 3px;
+	padding:0 0 0 10px;
+}
+
+#smallmenu ul a
+{
+	color: navy;
+	text-decoration: none;
+}
+
+#smallmenu ul a:hover
+{
+	text-decoration: underline;
+}
+
+#successbox
+{
+	background-color: PaleGreen;
+	border: 3px groove green;
+	color: black;
+	padding: 3px 0;
+	text-align: center;
+	width: auto;
+	font-size: small;
+}
+
+#failbox
+{
+	background-color: #FFCCCC;
+	border: 3px groove red;
+	color: black;
+	padding: 3px 0;
+	text-align: center;
+	width: auto;
+	font-size: small;
+}	
+
+/* Global */
+.title
+{
+	font-size: 16px;
+	font-weight: bold;
+	margin: 10px;
+	margin-left: 20px;
+}
+
+h2
+{
+	color: black;
+	font-size: 24px;
+	margin: 0;
+	border-bottom: 1px solid black;
+	font-weight: normal;
+}
